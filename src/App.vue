@@ -186,41 +186,9 @@
     			<h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-5"><span style="color: #fff;">新人豪礼</span></h2>
     			<p class="text-zinc-500 text-sm sm:text-base" style="color: #fff;">注册即享专属福利</p>
     		</div>
-    		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 max-w-5xl mx-auto">
-    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
-    				<img src="/promo/optimized/first-deposit.jpg" alt="首存豪礼" loading="lazy" decoding="async">
-    				<div class="activity-image-overlay">
-    					<h3>首存豪礼</h3>
-    					<p>点击查看详情</p>
-    				</div>
-    			</a>
-    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
-    				<img src="/promo/optimized/daily-redeposit.jpg" alt="每日复存福利" loading="lazy" decoding="async">
-    				<div class="activity-image-overlay">
-    					<h3>每日复存福利</h3>
-    					<p>点击查看详情</p>
-    				</div>
-    			</a>
-    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
-    				<img src="/promo/optimized/referral.jpg" alt="好友介绍福利" loading="lazy" decoding="async">
-    				<div class="activity-image-overlay">
-    					<h3>好友介绍福利</h3>
-    					<p>点击查看详情</p>
-    				</div>
-    			</a>
-    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
-    				<img src="/promo/optimized/daily-turnover.jpg" alt="每日流水福利" loading="lazy" decoding="async">
-    				<div class="activity-image-overlay">
-    					<h3>每日流水福利</h3>
-    					<p>点击查看详情</p>
-    				</div>
-    			</a>
-    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block md:col-span-2 md:max-w-[520px] md:mx-auto md:w-full">
-    				<img src="/promo/optimized/weekend-compensation.jpg" alt="周末赛事包赔" loading="lazy" decoding="async">
-    				<div class="activity-image-overlay">
-    					<h3>周末赛事包赔</h3>
-    					<p>点击查看详情</p>
-    				</div>
+    		<div class="max-w-5xl mx-auto">
+    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-summary-card block">
+    				<img src="/promo/activity-summary.jpg" alt="天行体育活动福利" loading="lazy" decoding="async">
     			</a>
     		</div>
     	</div>

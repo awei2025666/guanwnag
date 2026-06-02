@@ -276,7 +276,7 @@ html { scroll-behavior: smooth; }
   margin: 0px;
 }
 
-.activity-image-card {
+.activity-summary-card {
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -284,68 +284,20 @@ html { scroll-behavior: smooth; }
   border: solid 2px #499ff0;
   background: #cecefc;
   box-shadow: 0px 0px 30px rgba(2, 156, 73, .6);
-  aspect-ratio: 1 / 1;
   text-decoration: none;
   color: inherit;
 }
 
-.activity-image-card img {
+.activity-summary-card img {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
-  object-fit: fill;
+  object-fit: contain;
   transition: transform 0.5s ease;
 }
 
-.activity-image-card:hover img {
-  transform: scale(1.05);
-}
-
-.activity-image-overlay {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  border-radius: 20px;
-  background: url(/theme/default/uploads/bg01.png) bottom repeat-x;
-  pointer-events: none;
-}
-
-.activity-image-overlay h3 {
-  position: absolute;
-  left: 16px;
-  right: 16px;
-  bottom: 44px;
-  color: #fff !important;
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.2;
-}
-
-.activity-image-overlay p {
-  position: absolute;
-  left: 16px;
-  right: 16px;
-  bottom: 22px;
-  color: #0bb75b;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-@media (min-width: 640px) {
-  .activity-image-overlay h3 {
-    left: 24px;
-    right: 24px;
-    bottom: 52px;
-    font-size: 18px;
-  }
-
-  .activity-image-overlay p {
-    left: 24px;
-    right: 24px;
-    bottom: 28px;
-    font-size: 14px;
-  }
+.activity-summary-card:hover img {
+  transform: scale(1.02);
 }
 
 #copyTip {
