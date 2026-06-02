@@ -67,7 +67,7 @@
     							</a>
     							<div class="p-3 sm:p-4 rounded-xl sm:rounded-2xl bg-white/5 border border-blue-500/10" style="background: #fff !important; border: solid 2px #35c1f5; ">
     								<p class="text-[9px] sm:text-[10px] text-zinc-500 mb-1.5 sm:mb-2 uppercase tracking-[0.15em] sm:tracking-[0.2em] font-semibold" style="color: #cc0000;">官方下载地址</p>
-    								<a href="https://tianxing.ysepan.com/" target="_blank" rel="noopener" class="text-xs sm:text-sm text-zinc-300 hover:text-blue-400 font-mono transition-colors break-all block">https://tianxing.ysepan.com/</a>
+    								<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener" class="text-xs sm:text-sm text-zinc-300 hover:text-blue-400 font-mono transition-colors break-all block">https://www.txty888.app:30111/?i_code=4292462</a>
     							</div>
     							<div class="mt-3 sm:mt-4 p-2.5 sm:p-3 rounded-lg sm:rounded-xl bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20" style="opacity: 1; background: #fff; border: solid 2px #35c1f5;">
     								<p class="text-center text-xs sm:text-sm font-semibold"><span class="text-blue-700" style="color: #cc0000;">注册成功后添加上级管理咨询更多福利</span></p>
