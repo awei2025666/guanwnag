@@ -133,31 +133,6 @@
     												</svg><span>下载 APP</span></a>
     										</div>
     									</div>
-    									
-    									<div class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
-    										<div class="flex items-center gap-3 sm:gap-4 mb-4">
-    											<img src="/theme/default/uploads/01.png" alt="QQ客服" class="w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-contain bg-white/5 p-1 flex-shrink-0 border border-white/10" loading="lazy" referrerpolicy="no-referrer">
-    											<div class="flex-1 min-w-0">
-    												<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">QQ老谭专属</p>
-    												<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">2151376492</p>
-    											</div>
-    										</div>
-    										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="2151376492">复制QQ</span></button>
-    											<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download "><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg><span>下载 APP</span></a>
-    										</div>
-    									</div>
-    									<div class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
-    										<div class="flex items-center gap-3 sm:gap-4 mb-4">
-    											<img src="/theme/default/uploads/01.png" alt="QQ客服" class="w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-contain bg-white/5 p-1 flex-shrink-0 border border-white/10" loading="lazy" referrerpolicy="no-referrer">
-    											<div class="flex-1 min-w-0">
-    												<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">QQ晴晴专属</p>
-    												<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">2119522390</p>
-    											</div>
-    										</div>
-    										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="2119522390">复制QQ</span></button>
-    											<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download "><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg><span>下载 APP</span></a>
-    										</div>
-    									</div>
     									<div class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
     										<div class="flex items-center gap-3 sm:gap-4 mb-4">
     											<img src="/theme/default/uploads/01.png" alt="Safex" class="w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-contain bg-white/5 p-1 flex-shrink-0 border border-white/10" loading="lazy" referrerpolicy="no-referrer">
