@@ -53,13 +53,13 @@
     								<p class="text-zinc-400 text-sm sm:text-base" style="color: #fff !important;">官方直营 · 极致信誉</p>
     							</div>
     							
-    							<a href="http://txty014.com" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0"><span>立即注册</span>
+    							<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0"><span>立即注册</span>
     								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right sm:w-5 sm:h-5">
     									<path d="M5 12h14"></path>
     									<path d="m12 5 7 7-7 7"></path>
     								</svg>
     							</a>
-    							<a href="http://txty014.com" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0" style="background: #fdce02; color: #fff; border: solid 2px #ad9118;"><span>立即登录</span>
+    							<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0" style="background: #fdce02; color: #fff; border: solid 2px #ad9118;"><span>立即登录</span>
     								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right sm:w-5 sm:h-5">
     									<path d="M5 12h14"></path>
     									<path d="m12 5 7 7-7 7"></path>
@@ -67,7 +67,7 @@
     							</a>
     							<div class="p-3 sm:p-4 rounded-xl sm:rounded-2xl bg-white/5 border border-blue-500/10" style="background: #fff !important; border: solid 2px #35c1f5; ">
     								<p class="text-[9px] sm:text-[10px] text-zinc-500 mb-1.5 sm:mb-2 uppercase tracking-[0.15em] sm:tracking-[0.2em] font-semibold" style="color: #cc0000;">官方下载地址</p>
-    								<a href="https://www.txty888.app:30111/?i_code=7450040" target="_blank" rel="noopener" class="text-xs sm:text-sm text-zinc-300 hover:text-blue-400 font-mono transition-colors break-all block">https://www.txty888.app:30111/?i_code=7450040</a>
+    								<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener" class="text-xs sm:text-sm text-zinc-300 hover:text-blue-400 font-mono transition-colors break-all block">https://www.txty888.app:30111/?i_code=4292462</a>
     							</div>
     							<div class="mt-3 sm:mt-4 p-2.5 sm:p-3 rounded-lg sm:rounded-xl bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20" style="opacity: 1; background: #fff; border: solid 2px #35c1f5;">
     								<p class="text-center text-xs sm:text-sm font-semibold"><span class="text-blue-700" style="color: #cc0000;">注册成功后添加上级管理咨询更多福利</span></p>
@@ -94,12 +94,12 @@
     												</div>
     											</div>
     											<div class="flex-1 min-w-0">
-    												<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">safew专员璐璐</p>
-    												<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">@luluvip778</p>
+    												<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">safew专员筱筱</p>
+    												<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">@xiaoxiao899</p>
     											</div>
     										</div>
-    										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="@luluvip778">复制账号</span></button>
-    											<a href="https://www.txty888.app:30111/?i_code=7450040" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
+    										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="@xiaoxiao899">复制账号</span></button>
+    											<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
     												<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download ">
     													<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
     													<polyline points="7 10 12 15 17 10"></polyline>
@@ -120,12 +120,12 @@
     												</div>
     											</div>
     											<div class="flex-1 min-w-0">
-    												<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">safew专员晴晴</p>
-    												<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">@qingiqng6666</p>
+    												<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">safew专员盈盈</p>
+    												<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">@yingying188</p>
     											</div>
     										</div>
-    										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="@qingiqng6666">复制账号</span></button>
-    											<a href="https://www.txty888.app:30111/?i_code=7450040" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
+    										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="@yingying188">复制账号</span></button>
+    											<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
     												<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download ">
     													<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
     													<polyline points="7 10 12 15 17 10"></polyline>
@@ -143,7 +143,7 @@
     											</div>
     										</div>
     										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="2151376492">复制QQ</span></button>
-    											<a href="https://www.txty888.app:30111/?i_code=7450040" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download "><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg><span>下载 APP</span></a>
+    											<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download "><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg><span>下载 APP</span></a>
     										</div>
     									</div>
     									<div class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
@@ -155,7 +155,7 @@
     											</div>
     										</div>
     										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="2119522390">复制QQ</span></button>
-    											<a href="https://www.txty888.app:30111/?i_code=7450040" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download "><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg><span>下载 APP</span></a>
+    											<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download "><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg><span>下载 APP</span></a>
     										</div>
     									</div>
     									<div class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
@@ -167,7 +167,7 @@
     											</div>
     										</div>
     										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="Safex">复制账号</span></button>
-    											<a href="https://www.txty888.app:30111/?i_code=7450040" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
+    											<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
     												<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download ">
     													<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
     													<polyline points="7 10 12 15 17 10"></polyline>
@@ -212,35 +212,35 @@
     			<p class="text-zinc-500 text-sm sm:text-base" style="color: #fff;">注册即享专属福利</p>
     		</div>
     		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 max-w-5xl mx-auto">
-    			<a href="http://txty014.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
+    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
     				<img src="/promo/optimized/first-deposit.jpg" alt="首存豪礼" loading="lazy" decoding="async">
     				<div class="activity-image-overlay">
     					<h3>首存豪礼</h3>
     					<p>点击查看详情</p>
     				</div>
     			</a>
-    			<a href="http://txty014.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
+    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
     				<img src="/promo/optimized/daily-redeposit.jpg" alt="每日复存福利" loading="lazy" decoding="async">
     				<div class="activity-image-overlay">
     					<h3>每日复存福利</h3>
     					<p>点击查看详情</p>
     				</div>
     			</a>
-    			<a href="http://txty014.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
+    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
     				<img src="/promo/optimized/referral.jpg" alt="好友介绍福利" loading="lazy" decoding="async">
     				<div class="activity-image-overlay">
     					<h3>好友介绍福利</h3>
     					<p>点击查看详情</p>
     				</div>
     			</a>
-    			<a href="http://txty014.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
+    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block">
     				<img src="/promo/optimized/daily-turnover.jpg" alt="每日流水福利" loading="lazy" decoding="async">
     				<div class="activity-image-overlay">
     					<h3>每日流水福利</h3>
     					<p>点击查看详情</p>
     				</div>
     			</a>
-    			<a href="http://txty014.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block md:col-span-2 md:max-w-[520px] md:mx-auto md:w-full">
+    			<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="activity-image-card block md:col-span-2 md:max-w-[520px] md:mx-auto md:w-full">
     				<img src="/promo/optimized/weekend-compensation.jpg" alt="周末赛事包赔" loading="lazy" decoding="async">
     				<div class="activity-image-overlay">
     					<h3>周末赛事包赔</h3>
