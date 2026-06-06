@@ -155,7 +155,7 @@ const matchList = [
   date,
   time,
   stage: '小组赛',
-  status: '未开赛',
+  status: '',
   home,
   homeFlag: flagMap[home],
   away,
