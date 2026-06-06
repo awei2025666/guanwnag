@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #eef5ff;
+  color: #263047;
+  font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+}
+
+button {
+  border: 0;
+  font: inherit;
+}
+
+.world-cup-page {
+  position: relative;
+  width: 10rem;
+  max-width: 10rem;
+  height: 100vh;
+  height: 100dvh;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(180deg, rgba(89, 126, 247, 0.14) 0%, rgba(239, 246, 255, 0) 3.8rem),
+    #eef5ff;
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+  top: auto;
+  left: auto;
+  width: 9.36rem;
+  max-width: 9.36rem;
+  height: 3.56rem;
+  flex: 0 0 auto;
+  margin: 0.18rem auto 0;
+  transform: none;
+  background-image:
+    linear-gradient(180deg, rgba(89, 126, 247, 0.08) 0%, rgba(89, 126, 247, 0) 58%, rgba(238, 245, 255, 0.16) 100%),
+    url("/worldcup/background.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border: 0.04rem solid #fff;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.12rem 0.34rem rgba(89, 126, 247, 0.18);
+}
+
+.title-block {
+  padding-top: 0.26rem;
+  text-align: center;
+  text-shadow: 0 0.04rem 0.12rem rgba(255, 255, 255, 0.75);
+}
+
+.title-block h1 {
+  margin: 0;
+  color: #597ef7;
+  font-size: 0.5rem;
+  font-weight: 900;
+  letter-spacing: 0.02rem;
+  line-height: 1.12;
+}
+
+.title-block p {
+  margin: 0.06rem 0 0;
+  color: #6f82aa;
+  font-size: 0.18rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+.tabbar {
+  position: relative;
+  z-index: 5;
+  top: auto;
+  left: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 9.5rem;
+  height: 0.96rem;
+  flex: 0 0 auto;
+  padding: 0.08rem;
+  margin: 0.24rem auto 0;
+  transform: none;
+  border: 0.03rem solid rgba(255, 255, 255, 0.9);
+  border-radius: 0.28rem;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 0.12rem 0.3rem rgba(89, 126, 247, 0.18);
+  backdrop-filter: blur(0.18rem);
+}
+
+.tabbar button {
+  position: relative;
+  color: #8292b4;
+  background: transparent;
+  border-radius: 0.22rem;
+  font-size: 0.34rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tabbar button.active {
+  color: #fff;
+  background: linear-gradient(180deg, #7ea2ff 0%, #597ef7 100%);
+  box-shadow: 0 0.1rem 0.22rem rgba(89, 126, 247, 0.36);
+}
+
+.tabbar button.active::after {
+  content: none;
+}
+
+.schedule-panel {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  padding: 0.2rem 0.3rem 0;
+  overflow: hidden;
+}
+
+.date-nav {
+  position: relative;
+  z-index: 4;
+  top: auto;
+  left: auto;
+  display: flex;
+  width: 9.47rem;
+  height: 0.88rem;
+  flex: 0 0 auto;
+  margin: 0 auto 0.24rem;
+  transform: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-radius: 0.27rem;
+  border: 0.03rem solid #fff;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0.1rem 0.28rem rgba(89, 126, 247, 0.14);
+  backdrop-filter: blur(0.18rem);
+  scrollbar-width: none;
+}
+
+.date-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.date-nav button {
+  position: relative;
+  flex: 0 0 20%;
+  padding: 0.09rem 0.07rem;
+  color: #7f8ead;
+  background: transparent;
+  cursor: pointer;
+}
+
+.date-nav button:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0.29rem;
+  right: 0;
+  width: 1px;
+  height: 0.59rem;
+  background: rgba(89, 126, 247, 0.12);
+}
+
+.date-nav span,
+.date-nav strong {
+  display: block;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.date-nav span {
+  font-size: 0.26rem;
+  font-weight: 600;
+}
+
+.date-nav strong {
+  margin-top: 0.04rem;
+  font-size: 0.27rem;
+  font-weight: 700;
+}
+
+.date-nav button.active {
+  color: #fff;
+  background: linear-gradient(180deg, #7ea2ff 0%, #597ef7 100%);
+  border-radius: 0.21rem;
+}
+
+.current-date {
+  flex: 0 0 auto;
+  margin: 0 0 0.22rem;
+  color: #263047;
+  font-size: 0.35rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.match-list {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 0.8rem;
+  scrollbar-width: none;
+}
+
+.match-list::-webkit-scrollbar {
+  display: none;
+}
+
+.match-card {
+  margin-top: 0.19rem;
+  padding-bottom: 0.14rem;
+  overflow: hidden;
+  border: 0.03rem solid #fff;
+  border-radius: 0.27rem;
+  background: #fff;
+  box-shadow: 0 0.12rem 0.3rem rgba(89, 126, 247, 0.14);
+}
+
+.match-card header {
+  display: flex;
+  justify-content: space-between;
+  width: 8.72rem;
+  margin: 0 auto;
+  padding: 0.19rem 0;
+  color: #7c8aa8;
+  font-size: 0.32rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.match-body {
+  display: grid;
+  grid-template-columns: 1fr 1.95rem 1fr;
+  align-items: center;
+  min-height: 1.64rem;
+  width: 9.36rem;
+  margin: 0 auto;
+  padding: 0.37rem 0.24rem;
+  border-radius: 0.21rem;
+  background: linear-gradient(180deg, #f5f9ff 0%, #eaf2ff 100%);
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 0.14rem;
+  min-width: 0;
+  color: #263047;
+  font-size: 0.4rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.team.home {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.team.away {
+  justify-content: flex-start;
+}
+
+.team-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.flag {
+  font-size: 0.62rem;
+  line-height: 1;
+  filter: drop-shadow(0 0.02rem 0.03rem rgba(0, 0, 0, 0.24));
+}
+
+.flag-image {
+  display: block;
+  width: 0.62rem;
+  height: 0.43rem;
+  object-fit: cover;
+  border-radius: 0.03rem;
+}
+
+.score {
+  color: #263047;
+  text-align: center;
+  font-family: "DIN Alternate", Impact, sans-serif;
+  font-size: 0.69rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.bet-button {
+  grid-column: 1 / -1;
+  width: 4.82rem;
+  height: 0.88rem;
+  margin: 0.37rem auto 0;
+  border-radius: 0.8rem;
+  background: linear-gradient(180deg, #78a0ff 0%, #597ef7 100%);
+  color: #fff;
+  font-size: 0.32rem;
+  font-weight: 700;
+  box-shadow: 0 0.1rem 0.22rem rgba(89, 126, 247, 0.36);
+  cursor: pointer;
+}
+
+.empty-schedule {
+  margin-top: 0.28rem;
+  padding: 0.56rem 0;
+  border: 0.03rem solid #fff;
+  border-radius: 0.27rem;
+  background: #fff;
+  color: #7c8aa8;
+  text-align: center;
+  font-size: 0.32rem;
+}
+
+.data-panel {
+  position: relative;
+  z-index: 3;
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 0.24rem 0.3rem 0.8rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.standings-card,
+.scorer-card,
+.bracket-card {
+  overflow: hidden;
+  border: 0.03rem solid #fff;
+  border-radius: 0.27rem;
+  background: #fff;
+  box-shadow: 0 0.12rem 0.3rem rgba(89, 126, 247, 0.14);
+}
+
+.standings-card header,
+.standing-row {
+  display: grid;
+  grid-template-columns: minmax(2.4rem, 1.8fr) 0.75rem 1.2rem 0.9rem 0.62rem;
+  align-items: center;
+  gap: 0.05rem;
+  padding: 0.22rem 0.3rem;
+}
+
+.standings-card header,
+.scorer-card header {
+  color: #7c8aa8;
+  font-size: 0.28rem;
+}
+
+.standings-card header b {
+  color: #263047;
+  font-size: 0.38rem;
+}
+
+.standing-row {
+  color: #263047;
+  background: #f5f9ff;
+  font-size: 0.31rem;
+}
+
+.standing-row:nth-child(odd) {
+  background: #eaf2ff;
+}
+
+.bracket-panel {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.2rem;
+}
+
+.bracket-card {
+  padding: 0.27rem;
+}
+
+.bracket-card h2 {
+  margin: 0 0 0.2rem;
+  color: #597ef7;
+  font-size: 0.36rem;
+}
+
+.bracket-slot {
+  margin-top: 0.15rem;
+  padding: 0.22rem 0.26rem;
+  border-radius: 0.21rem;
+  background: #f5f9ff;
+  color: #263047;
+  font-size: 0.32rem;
+}
+
+.scorer-card {
+  padding-bottom: 0.24rem;
+}
+
+.scorer-card header,
+.scorer-row {
+  display: grid;
+  grid-template-columns: 0.85rem 1fr 1.35rem 1.45rem;
+  align-items: center;
+  gap: 0.12rem;
+  padding: 0.22rem 0.28rem;
+}
+
+.scorer-row {
+  margin: 0 0.2rem 0.15rem;
+  border-radius: 0.21rem;
+  background: #f5f9ff;
+  color: #263047;
+  font-size: 0.31rem;
+}
+
+.scorer-row b,
+.scorer-row strong {
+  color: #597ef7;
+}
