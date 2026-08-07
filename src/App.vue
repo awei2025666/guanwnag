@@ -53,7 +53,7 @@
     								<p class="text-zinc-400 text-sm sm:text-base" style="color: #fff !important;">官方直营 · 极致信誉</p>
     							</div>
     							
-    							<a href="http://txty065.com" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0"><span>立即注册</span>
+    							<a href="https://www.txty77.tv:30122/entry/register/?i_code=7450040" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0"><span>立即注册</span>
     								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right sm:w-5 sm:h-5">
     									<path d="M5 12h14"></path>
     									<path d="m12 5 7 7-7 7"></path>
