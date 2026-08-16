@@ -59,7 +59,7 @@
     									<path d="m12 5 7 7-7 7"></path>
     								</svg>
     							</a>
-    							<a href="http://txty060.com" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0" style="background: #fdce02; color: #fff; border: solid 2px #ad9118;"><span>立即登录</span>
+							<a href="https://www.omty110.vip:39001/?i_code=9749571" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0" style="background: #fdce02; color: #fff; border: solid 2px #ad9118;"><span>立即登录</span>
     								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right sm:w-5 sm:h-5">
     									<path d="M5 12h14"></path>
     									<path d="m12 5 7 7-7 7"></path>
@@ -94,12 +94,12 @@
     												</div>
     											</div>
     											<div class="flex-1 min-w-0">
-    												<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">safew专员筱筱</p>
-    												<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">@xiaoxiao899</p>
+											<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">safew专员老谭</p>
+											<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">@laotan995</p>
     											</div>
     										</div>
-    										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="@xiaoxiao899">复制账号</span></button>
-    											<a href="https://tianxing.ysepan.com/" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
+									<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="@laotan995">复制账号</span></button>
+											<a href="https://sfw.bar/laotan995" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
     												<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download ">
     													<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
     													<polyline points="7 10 12 15 17 10"></polyline>
@@ -120,12 +120,12 @@
     												</div>
     											</div>
     											<div class="flex-1 min-w-0">
-    												<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">safew专员盈盈</p>
-    												<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">@yingying188</p>
+											<p class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">safew专员晴晴</p>
+											<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight" style="color: #0c3bc1 !important;">@qingqing6666</p>
     											</div>
     										</div>
-    										<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="@yingying188">复制账号</span></button>
-    											<a href="https://tianxing.ysepan.com/" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
+									<div class="flex gap-2"><button class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy "><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg><span class="copy-btn" data-copy="@qingqing6666">复制账号</span></button>
+											<a href="https://sfw.bar/qingqing6666" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
     												<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download ">
     													<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
     													<polyline points="7 10 12 15 17 10"></polyline>
@@ -187,7 +187,7 @@
     			<p class="text-zinc-500 text-sm sm:text-base" style="color: #fff;">注册即享专属福利</p>
     		</div>
     		<div class="max-w-5xl mx-auto">
-			<a href="http://txty065.com" target="_blank" rel="noopener noreferrer" class="activity-summary-card block">
+			<a href="https://www.omty110.vip:39001/?i_code=9749571" target="_blank" rel="noopener noreferrer" class="activity-summary-card block">
 					<img src="/promo/activity-summary.png" alt="欧曼体育活动福利" loading="lazy" decoding="async">
 			</a>
     		</div>
