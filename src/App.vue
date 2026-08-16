@@ -10,8 +10,8 @@
     		<nav class="fixed top-0 left-0 right-0 z-50 px-3 sm:px-6 py-3 sm:py-5">
     			<div class="max-w-7xl mx-auto flex justify-between items-center glass rounded-2xl sm:rounded-3xl px-4 sm:px-8 py-3 sm:py-4 shadow-2xl border border-blue-500/10" style="background: #fff; border: solid 2px #fdcf00;">
     				<div class="flex items-center gap-2 sm:gap-4 cursor-pointer group">
-    					<div class="relative"><img src="/theme/default/uploads/logo.png" alt="天行体育.vip" class="h-10 sm:h-14 w-auto transition-all duration-500 group-hover:scale-110" loading="eager" style="mix-blend-mode: normal; background: transparent;"></div>
-    					<div class="flex flex-col"><span class="font-display font-bold text-base sm:text-xl tracking-tight text-white group-hover:text-blue-300 transition-all duration-300" style="color: #2a59cf !important;">天行体育.vip</span><span class="text-[8px] sm:text-[9px] tracking-[0.2em] sm:tracking-[0.25em] text-zinc-500 font-medium uppercase">Official Platform</span></div>
+					<div class="relative"><img src="/theme/default/uploads/logo.png" alt="欧曼体育.vip" class="h-10 sm:h-14 w-auto transition-all duration-500 group-hover:scale-110" loading="eager" style="mix-blend-mode: normal; background: transparent;"></div>
+					<div class="flex flex-col"><span class="font-display font-bold text-base sm:text-xl tracking-tight text-white group-hover:text-blue-300 transition-all duration-300" style="color: #2a59cf !important;">欧曼体育.vip</span><span class="text-[8px] sm:text-[9px] tracking-[0.2em] sm:tracking-[0.25em] text-zinc-500 font-medium uppercase">Official Platform</span></div>
     				</div>
     				<div class="flex items-center gap-3 sm:gap-6">
     					<span class="hidden md:flex items-center gap-2 text-xs text-zinc-400" style="color: #2a59cf !important;">
@@ -41,7 +41,7 @@
     								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
     							</svg>
     						</div>
-    						<h1 class="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-4 sm:mb-6 leading-[1.1]"><span class="text-white text-glow">天行体育.vip</span><br><span class="gradient-text">官方直营通道</span></h1>
+						<h1 class="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-4 sm:mb-6 leading-[1.1]"><span class="text-white text-glow">欧曼体育.vip</span><br><span class="gradient-text">官方直营通道</span></h1>
     						<p class="text-zinc-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed font-light px-4" style="color: #fff;">全球顶级体育平台，为您提供最专业的体育娱乐服务</p>
     					</div>
     					<div class="glass rounded-2xl sm:rounded-[32px] p-6 sm:p-10 md:p-12 max-w-2xl mx-auto relative overflow-hidden glow gradient-border" style="opacity: 1; transform: none;">
@@ -49,11 +49,11 @@
     						<div class="absolute -bottom-16 -left-16 sm:-bottom-24 sm:-left-24 w-32 sm:w-48 h-32 sm:h-48 bg-cyan-500/15 rounded-full blur-[60px] sm:blur-[80px]"></div>
     						<div class="relative z-10">
     							<div class="text-center mb-6 sm:mb-10">
-    								<h2 class="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-3" style="color: #fff !important;">天行体育.vip</h2>
+								<h2 class="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-3" style="color: #fff !important;">欧曼体育.vip</h2>
     								<p class="text-zinc-400 text-sm sm:text-base" style="color: #fff !important;">官方直营 · 极致信誉</p>
     							</div>
     							
-    							<a href="https://www.txty77.tv:30122/entry/register/?i_code=7450040" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0"><span>立即注册</span>
+							<a href="https://www.omty105.vip:30120/entry/register/?i_code=9749571" target="_blank" rel="noopener noreferrer" class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8" tabindex="0"><span>立即注册</span>
     								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right sm:w-5 sm:h-5">
     									<path d="M5 12h14"></path>
     									<path d="m12 5 7 7-7 7"></path>
@@ -67,7 +67,7 @@
     							</a>
     							<div class="p-3 sm:p-4 rounded-xl sm:rounded-2xl bg-white/5 border border-blue-500/10" style="background: #fff !important; border: solid 2px #35c1f5; ">
     								<p class="text-[9px] sm:text-[10px] text-zinc-500 mb-1.5 sm:mb-2 uppercase tracking-[0.15em] sm:tracking-[0.2em] font-semibold" style="color: #cc0000;">官方下载地址</p>
-    								<a href="https://www.txty888.app:30111/?i_code=4292462" target="_blank" rel="noopener" class="text-xs sm:text-sm text-zinc-300 hover:text-blue-400 font-mono transition-colors break-all block">https://www.txty888.app:30111/?i_code=4292462</a>
+								<a href="https://www.omty110.vip:39001/?i_code=9749571" target="_blank" rel="noopener" class="text-xs sm:text-sm text-zinc-300 hover:text-blue-400 font-mono transition-colors break-all block">https://www.omty110.vip:39001/?i_code=9749571</a>
     							</div>
     							<div class="mt-3 sm:mt-4 p-2.5 sm:p-3 rounded-lg sm:rounded-xl bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20" style="opacity: 1; background: #fff; border: solid 2px #35c1f5;">
     								<p class="text-center text-xs sm:text-sm font-semibold"><span class="text-blue-700" style="color: #cc0000;">注册成功后添加上级管理咨询更多福利</span></p>
@@ -187,9 +187,9 @@
     			<p class="text-zinc-500 text-sm sm:text-base" style="color: #fff;">注册即享专属福利</p>
     		</div>
     		<div class="max-w-5xl mx-auto">
-    			<a href="http://txty065.com" target="_blank" rel="noopener noreferrer" class="activity-summary-card block">
-    				<img src="/promo/activity-summary.jpg" alt="天行体育活动福利" loading="lazy" decoding="async">
-    			</a>
+			<a href="http://txty065.com" target="_blank" rel="noopener noreferrer" class="activity-summary-card block">
+					<img src="/promo/activity-summary.png" alt="欧曼体育活动福利" loading="lazy" decoding="async">
+			</a>
     		</div>
     	</div>
     </section>
@@ -202,7 +202,7 @@
     				<div class="flex items-center justify-center gap-3 mb-4 sm:mb-6">
     					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-crown text-blue-400 sm:w-5 sm:h-5">
     						<path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"></path>
-    					</svg><span class="font-display text-sm sm:text-base font-semibold text-zinc-300" style="color: #fff;">天行体育.vip</span></div>
+					</svg><span class="font-display text-sm sm:text-base font-semibold text-zinc-300" style="color: #fff;">欧曼体育.vip</span></div>
     				<div class="flex items-center justify-center gap-2 mb-3 sm:mb-4">
     					<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles text-cyan-400 sm:w-3 sm:h-3">
     						<path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
@@ -213,7 +213,7 @@
     					</svg>
     					<p class="text-zinc-500 text-xs" style="color: #fff;">全球顶级体育娱乐平台</p>
     				</div>
-    				<p class="text-zinc-700 text-xs" style="color: #fff;">© 2026 天行体育.vip. All Rights Reserved.</p>
+					<p class="text-zinc-700 text-xs" style="color: #fff;">© 2026 欧曼体育.vip. All Rights Reserved.</p>
     			</div>
     		</footer>
     	</div>
