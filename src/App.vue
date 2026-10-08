@@ -388,13 +388,13 @@
 						</div>
 						<div class="max-w-5xl mx-auto space-y-6">
 							<div class="activity-summary-card">
-								<img src="/promo/activity-1.png" alt="新人首存与介绍好友活动" loading="lazy" decoding="async">
+								<img src="/promo/activity-1.jpg" alt="新人首存与介绍好友活动" loading="lazy" decoding="async">
 							</div>
 							<div class="activity-summary-card">
-								<img src="/promo/activity-2.png" alt="每日首存与周累计活动" loading="lazy" decoding="async">
+								<img src="/promo/activity-2.jpg" alt="每日首存与周累计活动" loading="lazy" decoding="async">
 							</div>
 							<div class="activity-summary-card">
-								<img src="/promo/activity-3.png" alt="周流水与 VIP 包赔活动" loading="lazy" decoding="async">
+								<img src="/promo/activity-3.jpg" alt="周流水与 VIP 包赔活动" loading="lazy" decoding="async">
 							</div>
 						</div>
 					</div>
