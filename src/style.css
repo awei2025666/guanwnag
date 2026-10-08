@@ -279,7 +279,7 @@ html { scroll-behavior: smooth; }
 .activity-summary-card {
   position: relative;
   overflow: hidden;
-  cursor: pointer;
+  cursor: default;
   border-radius: 20px;
   border: solid 2px #499ff0;
   background: #cecefc;
