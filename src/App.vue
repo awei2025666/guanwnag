@@ -19,12 +19,12 @@
 				<div class="max-w-7xl mx-auto flex justify-between items-center glass rounded-2xl sm:rounded-3xl px-4 sm:px-8 py-3 sm:py-4 shadow-2xl border border-blue-500/10"
 					style="background: #fff; border: solid 2px #fdcf00;">
 					<div class="flex items-center gap-2 sm:gap-4 cursor-pointer group">
-						<div class="relative"><img src="/theme/default/uploads/logo.png" alt="天行体育.vip"
+						<div class="relative"><img src="/theme/default/uploads/logo.png" :alt="currentSite.domain"
 								class="h-10 sm:h-14 w-auto transition-all duration-500 group-hover:scale-110"
 								loading="eager" style="mix-blend-mode: normal; background: transparent;"></div>
 						<div class="flex flex-col"><span
 								class="font-display font-bold text-base sm:text-xl tracking-tight text-white group-hover:text-blue-300 transition-all duration-300"
-								style="color: #2a59cf !important;">天行体育.vip</span><span
+								style="color: #2a59cf !important;">{{ currentSite.domain }}</span><span
 								class="text-[8px] sm:text-[9px] tracking-[0.2em] sm:tracking-[0.25em] text-zinc-500 font-medium uppercase">Official
 								Platform</span></div>
 					</div>
@@ -77,7 +77,7 @@
 							</div>
 							<h1
 								class="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-4 sm:mb-6 leading-[1.1]">
-								<span class="text-white text-glow">天行体育.vip</span><br><span
+								<span class="text-white text-glow">{{ currentSite.domain }}</span><br><span
 									class="gradient-text">官方直营通道</span>
 							</h1>
 							<p class="text-zinc-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed font-light px-4"
@@ -94,12 +94,12 @@
 							<div class="relative z-10">
 								<div class="text-center mb-6 sm:mb-10">
 									<h2 class="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-3"
-										style="color: #fff !important;">天行体育.vip</h2>
+										style="color: #fff !important;">{{ currentSite.domain }}</h2>
 									<p class="text-zinc-400 text-sm sm:text-base" style="color: #fff !important;">官方直营 ·
 										极致信誉</p>
 								</div>
 
-								<a href="http://txty945.com" target="_blank" rel="noopener noreferrer"
+								<a :href="currentSite.loginUrl" target="_blank" rel="noopener noreferrer"
 									class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8"
 									tabindex="0"><span>立即注册</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
@@ -109,7 +109,7 @@
 										<path d="m12 5 7 7-7 7"></path>
 									</svg>
 								</a>
-								<a href="https://www.txty085.com:30000/entry/register/?i_code=4097300" target="_blank" rel="noopener noreferrer"
+								<a :href="currentSite.loginUrl" target="_blank" rel="noopener noreferrer"
 									class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8"
 									tabindex="0"
 									style="background: #fdce02; color: #fff; border: solid 2px #ad9118;"><span>立即登录</span>
@@ -124,9 +124,9 @@
 									style="background: #fff !important; border: solid 2px #35c1f5; ">
 									<p class="text-[9px] sm:text-[10px] text-zinc-500 mb-1.5 sm:mb-2 uppercase tracking-[0.15em] sm:tracking-[0.2em] font-semibold"
 										style="color: #cc0000;">官方下载地址</p>
-									<a href="https://www.txty085.com:30000/entry/register/?i_code=4097300"
+									<a :href="currentSite.downloadUrl"
 										target="_blank" rel="noopener"
-										class="text-xs sm:text-sm text-zinc-300 hover:text-blue-400 font-mono transition-colors break-all block">https://www.txty085.com:30000/entry/register/?i_code=4097300</a>
+										class="text-xs sm:text-sm text-zinc-300 hover:text-blue-400 font-mono transition-colors break-all block">{{ currentSite.downloadUrl }}</a>
 								</div>
 								<div class="mt-3 sm:mt-4 p-2.5 sm:p-3 rounded-lg sm:rounded-xl bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20"
 									style="opacity: 1; background: #fff; border: solid 2px #35c1f5;">
@@ -155,7 +155,7 @@
 										<div
 											class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
 											<div class="flex items-center gap-3 sm:gap-4 mb-4">
-												<img src="/promo/safew-dragon.png" alt="龙（全能王）"
+											<img :src="currentSite.avatar" :alt="currentSite.nickname"
 													class="w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-cover flex-shrink-0 border border-amber-300/70"
 													loading="lazy">
 
@@ -178,9 +178,9 @@
 												<div class="flex-1 min-w-0">
 													<p
 														class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">
-														 SafeWX专员龙全能王</p>
+														 SafeW 专员{{ currentSite.nickname }}</p>
 													<p class="text-lg sm:text-xl font-bold text-white font-mono break-all leading-tight"
-														style="color: #0c3bc1 !important;">下载后添加safew id：<br>tx1618</p>
+														style="color: #0c3bc1 !important;">下载后添加 SafeW ID：<br>{{ currentSite.safewId }}</p>
 												</div>
 											</div>
 											<div class="flex gap-2"><button
@@ -193,8 +193,8 @@
 														<path
 															d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2">
 														</path>
-													</svg><span class="copy-btn" data-copy="tx1618">复制账号</span></button>
-												<a href="http://www.safew.im" target="_blank" rel="noopener noreferrer"
+											</svg><span class="copy-btn" :data-copy="currentSite.safewId">复制账号</span></button>
+												<a :href="currentSite.safewUrl" target="_blank" rel="noopener noreferrer"
 													class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20"><span>下载
 														SafeW</span></a>
 											</div>
@@ -227,8 +227,8 @@
 														class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">
 														客服</p> -->
 													<p class="text-lg sm:text-xl font-bold font-mono break-all leading-tight flex items-center"
-														style="color: #0c3bc1 !important;">QQ ：807876646 <svg
-															t="1791461141975" @click.stop="copyAccount('807876646')" class="icon cursor-pointer" viewBox="0 0 1024 1024"
+														style="color: #0c3bc1 !important;">QQ ：{{ currentSite.qq }} <svg
+															t="1791461141975" @click.stop="copyAccount(currentSite.qq)" class="icon cursor-pointer" viewBox="0 0 1024 1024"
 															version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6113"
 															width="16" height="16">
 															<path
@@ -239,8 +239,8 @@
 																fill="#41c8ef" p-id="6115"></path>
 														</svg></p>
 													<p class="text-lg sm:text-xl font-bold font-mono break-all leading-tight flex items-center"
-														style="color: #0c3bc1 !important;">微信：liguofu123-<svg
-															t="1791461141975" @click.stop="copyAccount('liguofu123-')" class="icon cursor-pointer" viewBox="0 0 1024 1024"
+														style="color: #0c3bc1 !important;">微信：{{ currentSite.wechat }}<svg
+															t="1791461141975" @click.stop="copyAccount(currentSite.wechat)" class="icon cursor-pointer" viewBox="0 0 1024 1024"
 															version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6113"
 															width="16" height="16">
 															<path
@@ -252,7 +252,7 @@
 														</svg></p>
 												</div>
 											</div>
-											<div class="flex gap-2"><button @click.stop="addContact('qq', '807876646')"
+											<div class="flex gap-2"><button @click.stop="addContact('qq', currentSite.qq)"
 													class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg
 														xmlns="http://www.w3.org/2000/svg" width="15" height="15"
 														viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -263,7 +263,7 @@
 															d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2">
 														</path>
 													</svg><span>即刻添加qq</span></button>
-												<button @click.stop="addContact('wechat', 'liguofu123-')"
+												<button @click.stop="addContact('wechat', currentSite.wechat)"
 													class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">即刻添加微信</button>
 											</div>
 
@@ -302,7 +302,7 @@
 														class="text-sm sm:text-base text-blue-700 uppercase tracking-wider font-bold mb-1 leading-tight">
 														SafeW / SafeX（无需邀请码）</p>
 													<p class="text-base sm:text-lg font-bold text-white font-mono break-all leading-tight"
-														style="color: #d84665 !important;">网址：www.safew.im</p>
+													style="color: #d84665 !important;">网址：{{ currentSite.safewDisplay }}</p>
 													<p class="text-xs sm:text-sm text-slate-600 text-blue-700 mt-1">
 														苹果手机下载选
 														iPhone；<br />安卓手机下载选 Android</p>
@@ -319,8 +319,8 @@
 															d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2">
 														</path>
 													</svg><span class="copy-btn"
-														data-copy="www.safew.im">复制网址</span></button>
-												<a href="http://www.safew.im" target="_blank" rel="noopener noreferrer"
+														:data-copy="currentSite.safewDisplay">复制网址</span></button>
+												<a :href="currentSite.safewUrl" target="_blank" rel="noopener noreferrer"
 													class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-gradient-to-r from-cyan-500/40 to-blue-500/40 hover:from-cyan-500/60 hover:to-blue-500/60 active:from-cyan-500/70 active:to-blue-500/70 text-white text-sm font-bold transition-all shadow-md shadow-cyan-500/20">
 													<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
 														viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -412,7 +412,7 @@
 							class="lucide lucide-crown text-blue-400 sm:w-5 sm:h-5">
 							<path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"></path>
 						</svg><span class="font-display text-sm sm:text-base font-semibold text-zinc-300"
-							style="color: #fff;">天行体育.vip</span>
+							style="color: #fff;">{{ currentSite.domain }}</span>
 					</div>
 					<div class="flex items-center justify-center gap-2 mb-3 sm:mb-4">
 						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none"
@@ -428,7 +428,7 @@
 						</svg>
 						<p class="text-zinc-500 text-xs" style="color: #fff;">全球顶级体育娱乐平台</p>
 					</div>
-					<p class="text-zinc-700 text-xs" style="color: #fff;">© 2026 天行体育.vip. All Rights Reserved.</p>
+					<p class="text-zinc-700 text-xs" style="color: #fff;">© 2026 {{ currentSite.domain }}. All Rights Reserved.</p>
 				</div>
 			</footer>
 		</div>
@@ -436,6 +436,80 @@
 </template>
 
 <script setup>
+const safewUrl = 'https://safew.im/'
+
+const siteConfigs = {
+	'tx12.top': {
+		domain: 'tx12.top', nickname: '猫王', registerUrl: 'http://txty380.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=1301242',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=1301242',
+		qq: '2865054309', wechat: 'LM648559536', safewId: 'seven521', avatar: '/promo/avatar-maowang.png',
+	},
+	'tx1618.vip': {
+		domain: 'tx1618.vip', nickname: '龙全能王', registerUrl: 'http://txty945.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=4097300',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=4097300',
+		qq: '807876646', wechat: 'liguofu123-', safewId: 'tx1618', avatar: '/promo/avatar-long.png',
+	},
+	'txty.help': {
+		domain: 'txty.help', nickname: '财总', registerUrl: 'http://txty597.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=7044198',
+		downloadUrl: 'https://www.txty075.com:30000/?i_code=7044198',
+		qq: '933867557', wechat: 'ddd2180999', safewId: 'tx888', avatar: '/promo/avatar-caizong.png',
+	},
+	'txty.shop': {
+		domain: 'txty.shop', nickname: '太子', registerUrl: 'http://txty555.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=1503675',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=1503675',
+		qq: '1780606236', wechat: 'L-Jun9_Gem', safewId: 'TX373', avatar: '/promo/avatar-taizi.png',
+	},
+	'txty123.top': {
+		domain: 'txty123.top', nickname: '二爷『双花红棍』', registerUrl: 'http://txty1020.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8170847',
+		downloadUrl: 'https://www.txty075.com:30000/?i_code=8170847',
+		qq: '3830467242', wechat: 'RabbitYoyi', safewId: 'tx118', avatar: '/promo/avatar-erye.png',
+	},
+	'tx999.top': {
+		domain: 'tx999.top', nickname: '风哥', registerUrl: 'http://txty873k.vip',
+		loginUrl: 'https://www.txty075.com:30000/?i_code=8070925',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8070925',
+		qq: '3896168770', wechat: 'wuziwen545', safewId: 'fage188', avatar: '/promo/avatar-fengge.png',
+	},
+	'txty520.vip': {
+		domain: 'txty520.vip', nickname: '东哥', registerUrl: 'http://txty555.com',
+		loginUrl: 'https://www.txty075.com:30000/?i_code=1503675',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=1503675',
+		qq: '2942212259', wechat: 'zrq-1210', safewId: 'tx16888', avatar: '/promo/avatar-dongge.png',
+	},
+	'tv520.vip': {
+		domain: 'tv520.vip', nickname: '旺哥', registerUrl: 'http://txty111.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=3003864',
+		downloadUrl: 'https://www.txty075.com:30000/?i_code=3003864',
+		qq: '3866577833', wechat: 'Mj1115558', safewId: 'tx158', avatar: '/promo/avatar-wangge.png',
+	},
+}
+
+const hostname = window.location.hostname.toLowerCase().replace(/^www\./, '')
+const testDomainById = {
+	1: 'tx12.top',
+	2: 'tx1618.vip',
+	3: 'txty.help',
+	4: 'txty.shop',
+	5: 'txty123.top',
+	6: 'tx999.top',
+	7: 'txty520.vip',
+	8: 'tv520.vip',
+}
+const testId = new URLSearchParams(window.location.search).get('id')
+const selectedDomain = testDomainById[testId] || hostname
+const currentSite = {
+	...(siteConfigs[selectedDomain] || siteConfigs['tx1618.vip']),
+	safewUrl,
+	safewDisplay: 'safew.im',
+}
+
+document.title = `${currentSite.domain} | 官方直营通道`
+
 async function copyAccount(copyText) {
 	if (!copyText) return false
 	try {
