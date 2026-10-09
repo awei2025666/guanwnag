@@ -519,6 +519,12 @@ const siteConfigs = {
 		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8884175',
 		qq: '434221149', wechat: 'MM0330---', safewId: 'keai168', avatar: '/promo/avatar-keai.png',
 	},
+	'ty1314.vip': {
+		domain: 'ty1314.vip', nickname: '小可爱', registerUrl: 'http://txty402.com',
+		loginUrl: 'https://www.txty908.com:32202/?sport=1&i_code=8884175',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8884175',
+		qq: '434221149', wechat: 'MM0330---', safewId: 'keai168', avatar: '/promo/avatar-keai.png',
+	},
 	'tx9.top': {
 		domain: 'tx9.top', nickname: '校长', registerUrl: 'http://txty515.com',
 		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8885958', downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8885958',
@@ -548,13 +554,19 @@ const siteConfigs = {
 		qq: '2856570197', wechat: 'maryaaaa1111', safewId: 'yaya23519', avatar: '/promo/avatar-tangyaya.png',
 	},
 	'tx138.top': {
-		domain: 'tx138.top', nickname: '客服', registerUrl: 'http://txty018.com',
+		domain: 'tx138.top', nickname: '足球🔥头像', registerUrl: 'http://txty018.com',
 		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=7064184',
 		downloadUrl: 'https://www.txty075.com:30000/?i_code=7064184',
 		qq: '2856570197', wechat: 'HovikY-240608', safewId: 'mange168', avatar: '/promo/avatar-mange.png',
 	},
 	'tx996.vip': {
-		domain: 'tx996.vip', nickname: '客服', registerUrl: 'http://txty94.vip',
+		domain: 'tx996.vip', nickname: '梅西头像', registerUrl: 'http://txty94.vip',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=5529578',
+		downloadUrl: 'https://www.txty075.com:30000/?i_code=5529578',
+		qq: '3652305892', wechat: 'LW1399857857', safewId: 'tx018', avatar: '/promo/avatar-tx996.png',
+	},
+	'x996.vip': {
+		domain: 'x996.vip', nickname: '梅西头像', registerUrl: 'http://txty94.vip',
 		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=5529578',
 		downloadUrl: 'https://www.txty075.com:30000/?i_code=5529578',
 		qq: '3652305892', wechat: 'LW1399857857', safewId: 'tx018', avatar: '/promo/avatar-tx996.png',
@@ -582,6 +594,8 @@ const testDomainById = {
 	17: 'tx360.cc',
 	18: 'tx138.top',
 	19: 'tx996.vip',
+	20: 'x996.vip',
+	21: 'ty1314.vip',
 }
 const testId = new URLSearchParams(window.location.search).get('id')
 const selectedDomain = testDomainById[testId] || hostname
