@@ -151,9 +151,9 @@
 												class="text-[10px] sm:text-xs text-emerald-300 font-semibold"
 												style="color: #21c753 !important;">24/7 在线</span></span>
 									</div>
-									<div class="space-y-3 sm:space-y-3.5">
+									<div class="flex flex-col gap-3 sm:gap-3.5">
 										<div
-											class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
+											class="order-2 rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl" style="order: 2;">
 											<div class="flex items-center gap-3 sm:gap-4 mb-4">
 											<img :src="currentSite.avatar" :alt="currentSite.nickname"
 													class="w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-cover flex-shrink-0 border border-amber-300/70"
@@ -200,7 +200,7 @@
 											</div>
 										</div>
 										<div
-											class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
+											class="order-3 rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl" style="order: 3;">
 											<div class="flex items-center gap-3 sm:gap-4 mb-4">
 												<img src="/theme/default/uploads/01.png" alt="QQ 图标"
 													class="w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-contain bg-[#f4fbff] flex-shrink-0 border border-sky-200"
@@ -226,7 +226,7 @@
 													<!-- <p
 														class="text-[11px] sm:text-xs text-blue-700 uppercase tracking-wider font-semibold mb-1">
 														客服</p> -->
-													<p class="text-lg sm:text-xl font-bold font-mono break-all leading-tight flex items-center"
+															<p v-if="currentSite.qq" class="text-lg sm:text-xl font-bold font-mono break-all leading-tight flex items-center"
 														style="color: #0c3bc1 !important;">QQ ：{{ currentSite.qq }} <svg
 															t="1791461141975" @click.stop="copyAccount(currentSite.qq)" class="icon cursor-pointer" viewBox="0 0 1024 1024"
 															version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6113"
@@ -250,9 +250,17 @@
 																d="M128 363.968l0 469.376C128 867.84 160.32 896 199.808 896l394.944 0c39.488 0 71.872-28.16 71.872-62.656L666.624 363.968c0-34.432-32.384-62.592-71.872-62.592L199.808 301.376C160.32 301.376 128 329.536 128 363.968z"
 																fill="#41c8ef" p-id="6115"></path>
 														</svg></p>
+															<p v-for="wechat in (currentSite.additionalWechats || [])" :key="wechat"
+																class="text-lg sm:text-xl font-bold font-mono break-all leading-tight flex items-center"
+																style="color: #0c3bc1 !important;">微信：{{ wechat }} <svg
+																	@click.stop="copyAccount(wechat)" class="icon cursor-pointer" viewBox="0 0 1024 1024"
+																	width="16" height="16">
+																	<path d="M808.768 197.312c10.432 0 17.408 6.912 17.408 17.344v485.568c0 10.368-6.976 17.344-17.408 17.344h-87.296c-19.136 0-34.944 15.552-34.944 34.624 0 19.136 15.808 34.688 34.944 34.688h104.768c38.464 0 69.824-31.168 69.824-69.312v-520.32C896 159.168 864.64 128 826.176 128h-384c-38.4 0-69.824 31.232-69.824 69.312V232c0 19.072 15.68 34.688 34.88 34.688 19.2 0 34.88-15.616 34.88-34.688v-17.344c0-10.432 6.976-17.344 17.408-17.344h349.248z" fill="#41c8ef"></path>
+																	<path d="M128 363.968v469.376C128 867.84 160.32 896 199.808 896h394.944c39.488 0 71.872-28.16 71.872-62.656V363.968c0-34.432-32.384-62.592-71.872-62.592H199.808C160.32 301.376 128 329.536 128 363.968z" fill="#41c8ef"></path>
+																</svg></p>
 												</div>
 											</div>
-											<div class="flex gap-2"><button @click.stop="addContact('qq', currentSite.qq)"
+											<div class="flex gap-2"><button v-if="currentSite.qq" @click.stop="addContact('qq', currentSite.qq)"
 													class="flex-1 flex items-center justify-center gap-1.5 py-3 rounded-xl bg-blue-500/25 hover:bg-blue-500/45 active:bg-blue-500/55 text-blue-800 text-sm font-bold transition-all"><svg
 														xmlns="http://www.w3.org/2000/svg" width="15" height="15"
 														viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -292,7 +300,7 @@
 											</div>
 										</div> -->
 										<div
-											class="rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl">
+											class="order-1 rounded-2xl bg-gradient-to-br from-blue-50 via-white border border-blue-500/40 p-4 sm:p-5 shadow-lg shadow-blue-500/25 backdrop-blur-xl" style="order: 1;">
 											<div class="flex items-center gap-3 sm:gap-4 mb-4">
 												<img  src="/theme/default/uploads/01.png" alt="SafeW 龙图标"
 													class="w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-cover flex-shrink-0 border border-amber-300/70"
@@ -487,6 +495,70 @@ const siteConfigs = {
 		downloadUrl: 'https://www.txty075.com:30000/?i_code=3003864',
 		qq: '3866577833', wechat: 'Mj1115558', safewId: 'tx158', avatar: '/promo/avatar-wangge.png',
 	},
+	'tx5.top': {
+		domain: 'tx5.top', nickname: '校长', registerUrl: 'http://txty1023.com',
+		loginUrl: 'https://www.txty075.com:30000/?i_code=4867463',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=4867463',
+		qq: '2944129513', wechat: 'respect693', safewId: 'XG9527', avatar: '/promo/avatar-xiaozhang-tx5.png',
+	},
+	'tx99.one': {
+		domain: 'tx99.one', nickname: '板板💰（红万）', registerUrl: 'http://txty178.com',
+		loginUrl: 'https://www.txty075.com:30000/?i_code=1761070',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=1761070',
+		qq: '2667043625', wechat: 'quyuqing0608', safewId: '@fcai88', avatar: '/promo/avatar-banban.png',
+	},
+	'tx100.vip': {
+		domain: 'tx100.vip', nickname: 'D速', registerUrl: 'http://txty1026.com',
+		loginUrl: 'https://www.txty015.com:32101/?i_code=3938140',
+		downloadUrl: 'https://www.txty052.com:30122/entry/register/?i_code=3938140',
+		qq: '1873938835', wechat: 'ythcs1103', safewId: 'gaosu66', avatar: '/promo/avatar-dsu.png',
+	},
+	'tx1314.vip': {
+		domain: 'tx1314.vip', nickname: '小可爱', registerUrl: 'http://txty402.com',
+		loginUrl: 'https://www.txty908.com:32202/?sport=1&i_code=8884175',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8884175',
+		qq: '434221149', wechat: 'MM0330---', safewId: 'keai168', avatar: '/promo/avatar-keai.png',
+	},
+	'tx9.top': {
+		domain: 'tx9.top', nickname: '校长', registerUrl: 'http://txty515.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8885958', downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=8885958',
+		qq: '1847532728', wechat: 'Enting2026', additionalWechats: ['w061003z-'], safewId: 'xiaozhang66', avatar: '/promo/avatar-xiaozhang-tx9.png',
+	},
+	'tx7.top': {
+		domain: 'tx7.top', nickname: '帝王', registerUrl: 'http://txty435.com',
+		loginUrl: 'https://www.txty908.com:32202/?sport=1&i_code=2333350',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=2333350',
+		qq: '470232997', wechat: 'liu13688987659', safewId: 'dw4880', avatar: '/promo/avatar-diwang.png',
+	},
+	'ty520.work': {
+		domain: 'ty520.work', nickname: '四喜', registerUrl: 'http://txty017.com',
+		loginUrl: 'https://www.txty963.com:30113/?i_code=2753117',
+		downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=2753117',
+		qq: '3840766712', wechat: 'X15292123362y', safewId: 'zhage1668', avatar: '/promo/avatar-sixi.png',
+	},
+	'ty360.cc': {
+		domain: 'ty360.cc', nickname: '团长', registerUrl: 'http://txty24.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=7416946', downloadUrl: 'https://www.txty085.com:30000/entry/register/?i_code=7416946',
+		qq: '', wechat: 'LL74259850', additionalWechats: ['x15335944193', 'YIli28_'], safewId: 'Tuanz58', avatar: '/promo/avatar-tuanzhang.png',
+	},
+	'tx360.cc': {
+		domain: 'tx360.cc', nickname: '糖丫丫', registerUrl: 'http://txty022.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=9607163',
+		downloadUrl: 'https://www.txty075.com:30000/?i_code=9607163',
+		qq: '2856570197', wechat: 'maryaaaa1111', safewId: 'yaya23519', avatar: '/promo/avatar-tangyaya.png',
+	},
+	'tx138.top': {
+		domain: 'tx138.top', nickname: '客服', registerUrl: 'http://txty018.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=7064184',
+		downloadUrl: 'https://www.txty075.com:30000/?i_code=7064184',
+		qq: '2856570197', wechat: 'HovikY-240608', safewId: 'mange168', avatar: '/promo/avatar-mange.png',
+	},
+	'tx996.vip': {
+		domain: 'tx996.vip', nickname: '客服', registerUrl: 'http://txty94.vip',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=5529578',
+		downloadUrl: 'https://www.txty075.com:30000/?i_code=5529578',
+		qq: '3652305892', wechat: 'LW1399857857', safewId: 'tx018', avatar: '/promo/avatar-tx996.png',
+	},
 }
 
 const hostname = window.location.hostname.toLowerCase().replace(/^www\./, '')
@@ -499,6 +571,17 @@ const testDomainById = {
 	6: 'tx999.top',
 	7: 'txty520.vip',
 	8: 'tv520.vip',
+	9: 'tx5.top',
+	10: 'tx99.one',
+	11: 'tx100.vip',
+	12: 'tx1314.vip',
+	13: 'tx9.top',
+	14: 'tx7.top',
+	15: 'ty520.work',
+	16: 'ty360.cc',
+	17: 'tx360.cc',
+	18: 'tx138.top',
+	19: 'tx996.vip',
 }
 const testId = new URLSearchParams(window.location.search).get('id')
 const selectedDomain = testDomainById[testId] || hostname
@@ -548,10 +631,17 @@ async function handleCopy(event) {
 
 async function addContact(platform, account) {
 	if (platform === 'wechat') {
+		const hasMultipleWechat = (currentSite.additionalWechats?.length || 0) > 0
 		const confirmed = window.confirm(
-			`即将打开微信\n\n微信号「${account}」会自动复制到剪贴板。打开微信后，请进入「通讯录 → 添加朋友」，在搜索栏中粘贴该账号即可添加客服。`,
+			hasMultipleWechat
+				? `即将打开微信\n\n当前站点有多个微信号，请先复制需要添加的微信到粘贴板。打开微信后，请进入「通讯录 → 添加朋友」，在搜索栏中粘贴该账号即可添加客服。`
+				: `即将打开微信\n\n微信号「${account}」会自动复制到剪贴板。打开微信后，请进入「通讯录 → 添加朋友」，在搜索栏中粘贴该账号即可添加客服。`,
 		)
 		if (!confirmed) return
+		if (hasMultipleWechat) {
+			window.location.href = 'weixin://'
+			return
+		}
 	}
 
 	await copyAccount(account)
