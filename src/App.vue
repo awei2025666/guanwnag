@@ -554,19 +554,19 @@ const siteConfigs = {
 		qq: '2856570197', wechat: 'maryaaaa1111', safewId: 'yaya23519', avatar: '/promo/avatar-tangyaya.png',
 	},
 	'tx138.top': {
-		domain: 'tx138.top', nickname: '足球🔥头像', registerUrl: 'http://txty018.com',
+		domain: 'tx138.top', nickname: '客服', registerUrl: 'http://txty018.com',
 		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=7064184',
 		downloadUrl: 'https://www.txty075.com:30000/?i_code=7064184',
 		qq: '2856570197', wechat: 'HovikY-240608', safewId: 'mange168', avatar: '/promo/avatar-mange.png',
 	},
 	'tx996.vip': {
-		domain: 'tx996.vip', nickname: '梅西头像', registerUrl: 'http://txty94.vip',
+		domain: 'tx996.vip', nickname: '客服', registerUrl: 'http://txty94.vip',
 		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=5529578',
 		downloadUrl: 'https://www.txty075.com:30000/?i_code=5529578',
 		qq: '3652305892', wechat: 'LW1399857857', safewId: 'tx018', avatar: '/promo/avatar-tx996.png',
 	},
 	'x996.vip': {
-		domain: 'x996.vip', nickname: '梅西头像', registerUrl: 'http://txty94.vip',
+		domain: 'x996.vip', nickname: '客服', registerUrl: 'http://txty94.vip',
 		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=5529578',
 		downloadUrl: 'https://www.txty075.com:30000/?i_code=5529578',
 		qq: '3652305892', wechat: 'LW1399857857', safewId: 'tx018', avatar: '/promo/avatar-tx996.png',
@@ -574,6 +574,30 @@ const siteConfigs = {
 }
 
 const hostname = window.location.hostname.toLowerCase().replace(/^www\./, '')
+const siteAliases = {
+	'ty99.help': 'tx99.one',
+	't99.help': 'tx99.one',
+	'tx9.help': 'tx9.top',
+	'tx9.shop': 'tx9.top',
+	'tx7.help': 'tx7.top',
+	't718.top': 'tx7.top',
+	'tx520.work': 'ty520.work',
+	'ty521.vip': 'ty520.work',
+	'ty360.vip': 'ty360.cc',
+	'ty360.one': 'ty360.cc',
+	'tx360.one': 'tx360.cc',
+	'tx360.xyz': 'tx360.cc',
+	'tx5.help': 'tx5.top',
+	'tx5.shop': 'tx5.top',
+	'ty1314.top': 'ty1314.vip',
+	'ty1314.cc': 'ty1314.vip',
+	'x718.vip': 'tx996.vip',
+	'x911.vip': 'tx996.vip',
+	'x100.work': 'tx100.vip',
+	'tx100.top': 'tx100.vip',
+	'ty138.top': 'tx138.top',
+	'tx139.top': 'tx138.top',
+}
 const testDomainById = {
 	1: 'tx12.top',
 	2: 'tx1618.vip',
@@ -599,8 +623,11 @@ const testDomainById = {
 }
 const testId = new URLSearchParams(window.location.search).get('id')
 const selectedDomain = testDomainById[testId] || hostname
+console.log('selectedDomain', selectedDomain, 'hostname', hostname, 'testId', testId)
+const resolvedDomain = siteAliases[selectedDomain] || selectedDomain
 const currentSite = {
-	...(siteConfigs[selectedDomain] || siteConfigs['tx1618.vip']),
+	...(siteConfigs[resolvedDomain] || siteConfigs['tx1618.vip']),
+	domain: siteConfigs[resolvedDomain] && resolvedDomain !== selectedDomain ? selectedDomain : (siteConfigs[resolvedDomain] || siteConfigs['tx1618.vip']).domain,
 	safewUrl,
 	safewDisplay: 'safew.im',
 }
