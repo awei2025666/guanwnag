@@ -99,7 +99,7 @@
 										极致信誉</p>
 								</div>
 
-								<a :href="currentSite.loginUrl" target="_blank" rel="noopener noreferrer"
+								<a :href="currentSite.registrationUrl || currentSite.loginUrl" target="_blank" rel="noopener noreferrer"
 									class="btn-accent w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 font-bold text-base sm:text-lg mb-6 sm:mb-8"
 									tabindex="0"><span>立即注册</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
@@ -447,6 +447,13 @@
 const safewUrl = 'https://safew.im/'
 
 const siteConfigs = {
+	'tx456.vip': {
+		domain: 'tx456.vip', nickname: '客服', registerUrl: 'https://txty1086.com',
+		registrationUrl: 'https://txty1086.com',
+		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=2110774',
+		downloadUrl: 'https://www.txty908.com:32202/?sport=1/&i_code=2110774',
+		qq: '23502800', wechat: 'zsyzhe00', safewId: 'ck9100', avatar: '/theme/default/uploads/01.png',
+	},
 	'tx12.top': {
 		domain: 'tx12.top', nickname: '猫王', registerUrl: 'http://txty380.com',
 		loginUrl: 'https://www.txty085.com:30000/entry/register/?i_code=1301242',
@@ -575,6 +582,9 @@ const siteConfigs = {
 
 const hostname = window.location.hostname.toLowerCase().replace(/^www\./, '')
 const siteAliases = {
+	'tx00.vip': 'tx456.vip',
+	'z4v.top': 'tx456.vip',
+	'q7x.top': 'tx456.vip',
 	'ty99.help': 'tx99.one',
 	't99.help': 'tx99.one',
 	'tx9.help': 'tx9.top',
@@ -620,6 +630,7 @@ const testDomainById = {
 	19: 'tx996.vip',
 	20: 'x996.vip',
 	21: 'ty1314.vip',
+	22: 'tx456.vip',
 }
 const testId = new URLSearchParams(window.location.search).get('id')
 const selectedDomain = testDomainById[testId] || hostname
